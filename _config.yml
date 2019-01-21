@@ -3,7 +3,7 @@ title: '공부로그'
 tagline: '2019 공부로그'
 description: '프로그래밍을 공부하며 정리하는 블로그 입니다.'
 baseurl: ""
-url: http://misudev.github.io
+url: https://misudev.github.io
 logo: '/public/logo.png'
 
 # Site configurations
@@ -40,6 +40,13 @@ author:
 nav:
   Home:
     - '/'
+  Categories:
+    - '/'
+    # - { Categories All: '/blog/categories/' }
+    - { Java : '/blog/categories/#java' }
+    - { Servlet/JSP : '/blog/categories/#ServletJsp' }
+    - { Spring : '/blog/categories/#Spring' }
+    - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
   Blog:
     - '/blog/'
     - { Categories: '/blog/categories/' }
