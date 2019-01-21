@@ -15,7 +15,7 @@ $white:      #fff;
 $lightgrey:  #eee;
 $black:      #000;
 
-$theme-color: #f4bf75;
+$theme-color: $yellow;
 $theme-color-dark: darken($theme-color, 10%);
 
 $post-date-color: #9a9a9a;
@@ -23,10 +23,10 @@ $title-color: #313131;
 $masthead-title-small-color: #c0c0c0;
 
 /* Layout */
-$reverse-layout: true;
+$reverse-layout: false;
 $overlay-sidebar: false;
 
 /* Font stack */
-$font-serif: "PT Serif", Georgia, "Times New Roman", serif;
-$font-sans: "PT Sans", Helvetica, Arial, sans-serif;
+$font-serif: "Noto Sans KR","PT Serif", Georgia, "Times New Roman", serif;
+$font-sans: "Noto Sans KR","PT Sans", Helvetica, Arial, sans-serif;
 $font-font-awesome: FontAwesome;

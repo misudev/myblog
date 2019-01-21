@@ -1,8 +1,8 @@
 # Site Info
-title: '공부로그'
-tagline: '2019 공부로그'
-description: '프로그래밍을 공부하며 정리하는 블로그 입니다.'
-baseurl:
+title: 'misu log'
+tagline: '공부하는 블로그'
+description: '공부하고 정리해나가는 블로그 입니다.'
+baseurl: ""
 url: https://misudev.github.io
 #logo: '/public/logo.png'
 
@@ -33,8 +33,8 @@ author:
     github:    https://github.com/misudev
     # facebook:  <hide>
     twitter:   https://twitter.com/Li_Zhihao
-    weibo:     http://weibo.com/41173780
-    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
+  #  weibo:     http://weibo.com/41173780
+   # email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
 nav:
@@ -46,7 +46,9 @@ nav:
     - { Java : '/blog/categories/#java' }
     - { Servlet/JSP : '/blog/categories/#ServletJsp' }
     - { Spring : '/blog/categories/#Spring' }
-    - { 알고리즘 문제풀이: '/blog/categories/#알고리즘-문제풀이' }
+    - { Algorithm : '/blog/categories/#Algorithm' }
+    - { MySQL : '/blog/categories/#mysql' }
+    - { etc : '/blog/categories/#etc' }
   Blog:
     - '/blog/'
     - { Categories: '/blog/categories/' }
@@ -60,12 +62,10 @@ nav:
 tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
-hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
-
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
 disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 
+# 구글폰트
+google_fonts: "Noto+Sans+KR"
