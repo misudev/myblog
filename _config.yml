@@ -4,7 +4,7 @@ tagline: '2019 공부로그'
 description: '프로그래밍을 공부하며 정리하는 블로그 입니다.'
 baseurl:
 url: https://misudev.github.io
-logo: '/public/logo.png'
+#logo: '/public/logo.png'
 
 # Site configurations
 gems:
@@ -30,7 +30,7 @@ author:
   #gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
   contact:
     #linkedin:  https://www.linkedin.com/in/lizhihao
-    github:    https://github.com/codinfox
+    github:    https://github.com/misudev
     # facebook:  <hide>
     twitter:   https://twitter.com/Li_Zhihao
     weibo:     http://weibo.com/41173780
