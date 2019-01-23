@@ -10,6 +10,11 @@ classes: wide
 
 ## HTTP
 HTTP는 Hypertext Transfer Protocol의 약자로 브라우저가 웹 서버와 통신하기 위해 사용하는 프로토콜이다.
+
+HTTP 동작 구조는 다음과 같다.  
+
+<center><img src = '/assets/image/Http-protocol.JPG' width = '400' height = '300' /></center>
+
 HTTP에는 다음과 같은 메소드들이 있다.
 
 + GET : 정보를 요청하기 위해서 사용한다. (SELECT)
@@ -26,4 +31,6 @@ HTTP에는 다음과 같은 메소드들이 있다.
 
 + TRACE : 클라이언트의 요청을 그대로 반환한다. 예컨데 echo 서비스로 서버 상태를 확인하기 위한 목적으로 주로 사용한다.
 
-위와 같은 메소드로 client가 Request 하면 server는 이를 받아 해석하고 요청에 해당하는 Response를 전달한다.
+위와 같은 메소드로 client가 Request 하면 server는 이를 받아 해석하고 요청에 해당하는 Response를 전달한다.  
+
+출처 : http://www.ktword.co.kr/abbr_view.php?m_temp1=4884
