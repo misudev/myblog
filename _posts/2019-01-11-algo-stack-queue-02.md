@@ -27,35 +27,45 @@ tags: [Algorithm,java]
 
 ## 풀이코드
 ```java
-import java.util.*;
-
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
 class Solution {
     public int solution(int[] priorities, int location) {
         int answer = 0;
-        int l = location;
+        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue2 = new LinkedList<>();
+        int index = 0;
 
-        Queue<Integer> que = new LinkedList<Integer>();
         for(int i : priorities){
-            que.add(i);
+            queue.add(i);
+            queue2.add(index++);
         }
 
         Arrays.sort(priorities);
-        int size = priorities.length-1;
 
-        while(!que.isEmpty()){
-            Integer i = que.poll();
-            if(i == priorities[size - answer]){
+        int tmp = -1;
+        int tmp1 = -1;
+        int tmp2 = -1;
+        index = priorities.length -1;
+        while(!queue.isEmpty()){
+            if(tmp == location){
+                break;
+            }
+            if(queue.peek()==priorities[index]){
                 answer++;
-                l--;
-                if(l <0)
-                    break;
+                queue.poll();
+                tmp = queue2.poll();
+                index --;
             }else{
-                que.add(i);
-                l--;
-                if(l<0)
-                    l=que.size()-1;
+                tmp1 = queue.poll();
+                tmp2 = queue2.poll();
+
+                queue.add(tmp1);
+                queue2.add(tmp2);
             }
         }
+
         return answer;
     }
 }
