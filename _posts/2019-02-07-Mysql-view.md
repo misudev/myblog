@@ -17,7 +17,7 @@ comments: true
 
 뷰의 생성문은 다음과 같다.
 
-```
+```mysql
 CREATE VIEW 뷰이름 AS
 
 SELECT 필드이름1, 필드이름2, ...
@@ -31,7 +31,7 @@ WHERE 조건
 
 뷰의 호출, 삭제, 구조보기는 다음과 같다.
 
-```
+```mysql
 // View 호출
 Select * From 뷰이름;
 // View 삭제
@@ -41,6 +41,8 @@ Desc 뷰이름;
 // View 목록 보기 ( 테이블도 함께 나온다. )
 Show tables;
 ```
+
+
 
 **주의점**
 
