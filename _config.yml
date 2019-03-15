@@ -48,6 +48,7 @@ nav:
     - { Spring : '/blog/categories/#Spring' }
     - { Algorithm : '/blog/categories/#Algorithm' }
     - { MySQL : '/blog/categories/#mysql' }
+    - { Project : '/blog/categories/#Project' }
     - { etc : '/blog/categories/#etc' }
   Blog:
     - '/blog/'
