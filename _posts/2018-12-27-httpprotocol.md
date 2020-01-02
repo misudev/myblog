@@ -14,7 +14,6 @@ HTTP는 Hypertext Transfer Protocol의 약자로 브라우저가 웹 서버와 �
 HTTP 동작 구조는 다음과 같다.  
 
 <center><img src = '/assets/image/Http-protocol.JPG' width = '400' height = '300' /></center>
-
 HTTP에는 다음과 같은 메소드들이 있다.
 
 + GET : 정보를 요청하기 위해서 사용한다. (SELECT)
