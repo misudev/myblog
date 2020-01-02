@@ -4,7 +4,7 @@ tagline: '공부하는 블로그'
 description: '공부하고 정리하는 블로그 입니다.'
 baseurl: ""
 url: https://misudev.github.io
-#logo: '/public/logo.png'
+#logo: '/public/cookiemonster.jpeg'
 
 # Site configurations
 gems:
