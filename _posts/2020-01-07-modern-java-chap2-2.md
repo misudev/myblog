@@ -27,6 +27,7 @@ List<Apple> redApples = filterApples(inventory, new ApplePredicate() {	// 익명
 
 
 
+
 ### 람다 표현식 
 
 ```java
@@ -34,6 +35,7 @@ List<Apple> result = filterApples(inventory, (Apple apple) -> RED.equals(apple.g
 ```
 
 위의 익명클래스보다 훨씬 간결한 코드가 된다.
+
 
 
 
@@ -58,6 +60,7 @@ public static <T> List<T> filter(List<T> list, Predicate<T> p) { // 형식 파�
 List<Apple> redApples = filter(inventory, (Apple apple) -> RED.equals(apple.getColor()));
 List<Integer> evenNumbers = filter(numbers, (Integer i) -> i % 2 == 0);
 ```
+
 
 
 
