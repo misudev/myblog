@@ -1,9 +1,0 @@
----
-layout: post
-title: "[Spring] SpEL(Spring Expression Language)"
-category: Spring
-tags: [Spring]
----
-SpEL 이란
------------
-SpEL(Spring Expresiion Language)란 강력한 표현식 언어로써 XML이나 어노테이션 기반의 Configuration에서 쓰인다.
